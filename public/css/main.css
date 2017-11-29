@@ -1,0 +1,18 @@
+.js-nav {
+  background-color: black;
+}
+
+.js-nav-link {
+  color: white;
+  animation:bold-to-normal 1.0s;
+  animation:black-to-white 1.0s;
+  animation:un-opac 0.8s;
+  animation:un-box 0.8s;
+  animation:un-box-color 0.8s;
+  animation:un-box-radius 0.1s;
+}
+
+.js-nav-link:hover {
+  color: black;
+  background-color: lightgray;
+}
