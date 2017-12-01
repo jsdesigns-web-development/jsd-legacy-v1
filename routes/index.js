@@ -31,5 +31,9 @@ router.get('/projects', function(req, res) {
   res.render('projects');
 });
 
+router.get('/configure-dns', function(req, res) {
+  res.render('configure-dns-howto');
+});
+
 
 module.exports = router;

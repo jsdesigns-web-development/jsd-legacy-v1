@@ -17,11 +17,11 @@
   },
   "homepage": "http://jsdesigns.site",
   "dependencies": {
+    "animate.css": "^3.5.2",
     "body-parser": "^1.18.2",
     "compression": "^1.7.1",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
-    "jquery-aniview": "^1.0.2",
     "scrollreveal": "^3.3.6"
   }
 }

@@ -1,0 +1,37 @@
+<% include ./partials/header %>
+<div class="container">
+  <h1>How to configure your DNS</h1>
+  <h3 class="animated bounce"><span class="delayed-indent">Google Domains</span></h3>
+  <div class="tutorial">
+    <p class="overview"><span class="numeral">Overview: </span>
+      To make your existing domain name point to the site designed by JS Designs, you will
+      need to tell your registrar (Google Domains) where to find your website. This is done
+      by configuring your domain to point to the JS Designs nameservers.
+    </p>
+    <hr>
+    <p><span class="numeral">Step #1) </span>If you registered your domain name via
+      Google Domains (<a href="https://domains.google.com">domains.google.com</a>),
+      navigate there and log-in to your account.</p>
+    <p><span class="numeral">Step #2) </span>Locate the domain you would like to configure
+      and click the DNS icon.</p>
+    <div class="dns-image"><img id="myImg1" src="imgs/google-domains-main.png" alt="Locate Domain Name" width="100%"/></div>
+    <p><span class="numeral">Step #3) </span>Select the radio button entitled "Use custom name servers".</p>
+    <p><span class="numeral">Step #4) </span>Enter the nameservers EXACTLY as shown below, then click the 'Save' button.</p>
+    <div class="dns-image"><img id="myImg2" src="imgs/google-domains-entering-nameservers.png" alt="Configuring Nameservers" width="100%"/></div>
+    <p>That's it. You're done!</p>
+    <p>Officially, it may take up to 48 hours for the settings to take effect,
+      but in practice it usually only takes a few minutes.</p>
+  </div>
+  <div id="myModal1" class="modal1">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <!--div id="caption"></div-->
+  </div>
+  <div id="myModal2" class="modal2">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img02">
+    <!--div id="caption"></div-->
+  </div>
+</div>
+<script type="text/javascript" src="/js/configure-dns-howto-img-modal.js"></script>
+<% include ./partials/footer %>
