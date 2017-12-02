@@ -8,6 +8,11 @@ router.use(function timeLog(req, res, next) {
 });
 
 router.get('/', function(req, res) {
+  // res.render('landing');
+  res.render('home');
+});
+
+router.get('/home', function(req, res) {
   res.render('home');
 });
 
@@ -15,20 +20,24 @@ router.get('/about', function(req, res) {
   res.render('about');
 });
 
-router.get('/about/resume', function(req, res) {
-  res.render('resume');
+router.gt('/pricing', function(req, res) {
+  res.render('pricing');
 });
 
-router.get('/articles', function(req, res) {
-  res.render('articles');
+router.get('/contact', function(req, res) {
+  res.render('contact');
 });
 
 router.get('/blog', function(req, res) {
-  res.redirect('/articles');
+  res.redirect('/blog');
 });
 
-router.get('/projects', function(req, res) {
-  res.render('projects');
+router.get('/portfolio', function(req, res) {
+  res.render('portfolio');
+});
+
+router.get('/web-design-services', function(req, res) {
+  res.render('services');
 });
 
 router.get('/configure-dns', function(req, res) {

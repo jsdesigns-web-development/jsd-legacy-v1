@@ -1,7 +1,15 @@
+.container {
+  margin-top: 50px;
+}
+
 footer {
   padding-top: 30px;
   text-align: center;
 }
+
+/********************************
+    Navbar
+********************************/
 
 .nav {
   border-bottom: 1px lightblue solid;
@@ -9,9 +17,6 @@ footer {
   padding-top: 0.75em;
 }
 
-.container {
-  margin-top: 50px;
-}
 
 .js-nav {
   background-color: black;
@@ -36,7 +41,7 @@ footer {
   -vendor-animation-delay: 0.2s;
 }
 
-#nav-products {
+#nav-pricing {
   -vendor-animation-delay: 0.3s;
 }
 
@@ -47,6 +52,10 @@ footer {
 #nav-contact {
   -vendor-animation-delay: 0.5s;
 }
+
+/********************************
+  how to configure nameservers
+********************************/
 
 .tutorial {
   margin: 30px 0px 10px 0px;
@@ -64,16 +73,16 @@ footer {
   margin-bottom: 20px;
 }
 
-@keyframes indented {
-  from { padding-left: 0px; }
-  to { padding-left: 20px; }
-}
-
 .delayed-indent {
   animation-name: indented;
   animation-delay: 1.5s;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
+}
+
+@keyframes indented {
+  from { padding-left: 0px; }
+  to { padding-left: 20px; }
 }
 
 .dns-image {
@@ -82,6 +91,10 @@ footer {
   width: 75%;
   margin-bottom: 20px;
 }
+
+/********************************
+    Nameserver config modal
+********************************/
 
 /* The Modal (background) */
 .modal1, .modal2 {
