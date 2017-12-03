@@ -18,6 +18,7 @@
   "homepage": "http://jsdesigns.site",
   "dependencies": {
     "animate.css": "^3.5.2",
+    "aws-sdk": "^2.162.0",
     "body-parser": "^1.18.2",
     "compression": "^1.7.1",
     "ejs": "^2.5.7",
