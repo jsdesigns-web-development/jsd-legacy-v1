@@ -20,7 +20,7 @@ router.get('/about', function(req, res) {
   res.render('about');
 });
 
-router.gt('/pricing', function(req, res) {
+router.get('/pricing', function(req, res) {
   res.render('pricing');
 });
 
