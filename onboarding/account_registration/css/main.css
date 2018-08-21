@@ -11,39 +11,6 @@
   width: 800px;
 }
 
-tr , td {
-  padding:6px;
-  border-spacing:0px;
-  border-width:0px;
-  }
-  .crmDiv {
-    width:600px;
-    margin:auto;
-    padding: 1em;
-  }
-
-  #form-table {
-    width: 500px;
-    background-color: white;
-    color: black
-  }
-
-  .form-td-label {
-    nowrap: nowrap;
-    text-align: centerleft;
-    font-size: 16px;
-    font-family: Arial;
-    width: 200px;
-  }
-
-  .form-td-input {
-    width:250px;
-  }
-
-  .form-input {
-    width:250px;
-  }
-
   #submit-btns {
     text-align: center;
     padding-left: 12em;
@@ -73,23 +40,5 @@ tr , td {
 
     .intro {
       width: 350px;
-    }
-    #submit-btns {
-      padding-left: 0em;
-    }
-    .crmDiv {
-      width:350px;
-    }
-    #form-table {
-      width: 300px;
-    }
-    .form-td-label {
-      width: 150px;
-    }
-    .form-td-input {
-      width:200px;
-    }
-    .form-input {
-      width:200px;
     }
   }
