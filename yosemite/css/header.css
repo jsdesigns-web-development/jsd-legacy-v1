@@ -1,7 +1,0 @@
-body {
-  background: #f8f9fa;
-}
-
-.navbar-light .navbar-nav .nav-link:target {
-  color: red;
-}
